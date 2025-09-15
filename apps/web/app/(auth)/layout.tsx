@@ -1,11 +1,12 @@
-interface Props{
-    children: React.ReactNode
+import { AuthLayout } from "@/modules/auth/ui/layouts/auth-layout";
+
+interface Props {
+  children: React.ReactNode;
 }
 
-export default function Layout({children}:Props){
-    return(
-     <div className="flex h-screen justify-center items-center">
+export default function Layout({ children }: Props) {
+  return (
+    <AuthLayout>
         {children}
-     </div>
-     )
+    </AuthLayout>)
 }
