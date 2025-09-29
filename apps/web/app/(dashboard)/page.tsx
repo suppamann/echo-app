@@ -27,9 +27,7 @@ export default function Page() {
             <UserButton/>
             <OrganizationSwitcher hidePersonal/>
           </div>
-          
         </div>
-
     </>
   );
 }

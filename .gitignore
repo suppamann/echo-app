@@ -35,4 +35,8 @@ npm-debug.log*
 .DS_Store
 *.pem
 
+# Sentry
+.env.sentry-build-plugin
+
+# Mine
 notes.md
